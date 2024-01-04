@@ -1,6 +1,8 @@
 import turtle
 import pygame
+
 pygame.init()
+
 wn = turtle.Screen()
 wn.setup(width=500, height=500)
 red = turtle.Turtle()
@@ -37,6 +39,7 @@ def heartb():
     red.forward(112)
     red.end_fill()
     red.left(140)
+
 pygame.mixer.init()
 pygame.mixer.music.load('song.mp3')
 pygame.mixer.music.play()
@@ -44,4 +47,10 @@ pygame.mixer.music.play()
 heartb()
 hearta()
 red.ht()
+
+red.penup()
+red.goto(0, -50) 
+red.color('black')
+red.write("Thanks for being in my life.", align="center", font=("Arial", 24, "normal"))
+
 turtle.done()
