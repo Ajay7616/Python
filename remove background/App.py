@@ -4,8 +4,8 @@ import numpy as np
 import mediapipe as mp
 
 image_paths = [
-    "D:\\Ajay Programmers\\sign_language\\Image Background\\img1.jpg",
-    "D:\\Ajay Programmers\\sign_language\\Image Background\\img2.jpg"
+    "img1.jpg",
+    "img2.jpg"
 ]
 
 image_index = 0
